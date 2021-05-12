@@ -1,0 +1,28 @@
+{
+  "name": "sitube",
+  "version": "1.0.0",
+  "description": "유튜브 클론 사이트",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sihyunLee/sitube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sihyunLee/sitube/issues"
+  },
+  "homepage": "https://github.com/sihyunLee/sitube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1"
+  }
+}
